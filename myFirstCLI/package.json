@@ -1,0 +1,34 @@
+{
+  "name": "@gollumeo/holidates",
+  "version": "1.0.0",
+  "description": "Simple CLI allowing you to retrieve the holidays dates for a given year (current year being the default one)",
+  "main": "index.mjs",
+  "devDependencies": {},
+  "scripts": {
+    "test": "try",
+    "run": "holidates"
+  },
+  "bin": {
+    "holidates": "index.mjs"
+  },
+  "keywords": [
+    "holidays",
+    "dates",
+    "date",
+    "year",
+    "current",
+    "package",
+    "fun",
+    "trivial"
+  ],
+  "author": "gollumeo",
+  "license": "ISC",
+
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chalk": "^5.2.0",
+    "country-list": "^2.3.0",
+    "figlet": "^1.6.0",
+    "ora": "^6.3.0"
+  }
+}
